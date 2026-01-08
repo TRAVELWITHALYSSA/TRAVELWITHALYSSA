@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TRAVELWITHALYSSA | Personalized Travel Planning</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #1f3a5f;
+      --accent: #c8a45d;
+      --background: #f7f9fb;
+      --text-dark: #1a1a1a;
+      --text-light: #555;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: var(--white);
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      color: var(--primary);
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: var(--text-light);
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 100px 60px;
+      background: linear-gradient(rgba(31,58,95,0.75), rgba(31,58,95,0.75)),
+        url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      color: var(--white);
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 0 auto 40px;
+      color: #e5e7eb;
+    }
+
+    .hero a {
+      display: inline-block;
+      padding: 14px 34px;
+      background: var(--accent);
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 500;
+      border-radius: 4px;
+    }
+
+    .hero a:hover {
+      opacity: 0.9;
+    }
+
+    /* Section Base */
+    section {
+      padding: 80px 60px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: var(--primary);
+    }
+
+    section p {
+      max-width: 800px;
+      color: var(--text-light);
+      margin-bottom: 30px;
+    }
+
+    /* Services */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .service-card {
+      background: var(--white);
+      padding: 30px;
+      border-radius: 6px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+
+    .service-card h4 {
+      margin-bottom: 10px;
+      color: var(--primary);
+    }
+
+    /* Trust Section */
+    .trust {
+      background: var(--white);
+      padding: 80px 60px;
+      text-align: center;
+    }
+
+    .trust p {
+      max-width: 900px;
+      margin: auto;
+      color: var(--text-light);
+      font-size: 17px;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      padding: 40px 60px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    footer span {
+      color: var(--accent);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+
+      .hero h2 {
+        font-size: 36px;
+      }
+
+      section {
+        padding: 60px 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>TRAVELWITHALYSSA</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Destinations</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h2>Thoughtfully Planned Travel,<br>Designed Around You</h2>
+    <p>
+      Personalized travel planning with expert guidance, attention to detail,
+      and seamless coordination — so you can travel confidently and enjoy every moment.
+    </p>
+    <a href="#">Start Planning</a>
+  </div>
+
+  <!-- About -->
+  <section>
+    <h3>Experience You Can Trust</h3>
+    <p>
+      TRAVELWITHALYSSA provides tailored travel planning services built on experience,
+      organization, and a deep understanding of what makes a trip truly memorable.
+      Every itinerary is customized to fit your style, priorities, and pace.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section>
+    <h3>Travel Services</h3>
+    <div class="services">
+      <div class="service-card">
+        <h4>Custom Itineraries</h4>
+        <p>Thoughtfully designed trips tailored to your interests, schedule, and budget.</p>
+      </div>
+      <div class="service-card">
+        <h4>Destination Expertise</h4>
+        <p>Insightful recommendations for accommodations, experiences, and logistics.</p>
+      </div>
+      <div class="service-card">
+        <h4>Ongoing Support</h4>
+        <p>Reliable assistance before, during, and after your travels for peace of mind.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust -->
+  <div class="trust">
+    <h3>Your Journey, Handled With Care</h3>
+    <p>
+      This is not mass booking or automated planning.
+      Every trip is handled personally, with attention to detail and a commitment
+      to delivering smooth, memorable travel experiences.
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © <span>TRAVELWITHALYSSA</span> — Independent Travel Advisor
+  </footer>
+
+</body>
+</html>
