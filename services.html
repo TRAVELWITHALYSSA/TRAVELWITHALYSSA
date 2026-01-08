@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Travel with Alyssa</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f7f9fb;
+      color: #1a1a1a;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #ffffff;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      color: #1f3a5f;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+    nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #555;
+      font-size: 14px;
+    }
+    nav a:hover {
+      color: #1f3a5f;
+    }
+    .hero {
+      padding: 80px 60px;
+      background: linear-gradient(rgba(31,58,95,0.75), rgba(31,58,95,0.75)),
+                  url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+    }
+    .hero h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+    section {
+      padding: 80px 60px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    section h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #1f3a5f;
+    }
+    section p {
+      max-width: 800px;
+      color: #555;
+      margin-bottom: 30px;
+      font-size: 17px;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+      margin-top: 40px;
+    }
+    .service-card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 6px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      transition: all 0.3s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    }
+    .service-card h4 {
+      margin-bottom: 10px;
+      color: #1f3a5f;
+    }
+    footer {
+      background: #1f3a5f;
+      color: #fff;
+      padding: 40px 60px;
+      text-align: center;
+      font-size: 14px;
+    }
+    footer span {
+      color: #c8a45d;
+      font-weight: 500;
+    }
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+      nav {
+        margin-top: 10px;
+      }
+      .hero h2 {
+        font-size: 30px;
+      }
+      section {
+        padding: 60px 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Travel with Alyssa</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="#">Destinations</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h2>Our Travel Services</h2>
+    <p>Personalized, thoughtful, and stress-free travel planning designed just for you.</p>
+  </div>
+
+  <!-- Services Section -->
+  <section>
+    <h3>What We Offer</h3>
+    <p>Travel with Alyssa provides a range of services to ensure every trip is seamless and unforgettable. Each service is tailored to your unique preferences and needs.</p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <h4>Custom Itineraries</h4>
+        <p>Detailed, personalized itineraries that match your interests, timing, and budget.</p>
+      </div>
+      <div class="service-card">
+        <h4>Destination Expertise</h4>
+        <p>Expert recommendations for accommodations, dining, and experiences in your chosen destinations.</p>
+      </div>
+      <div class="service-card">
+        <h4>Flight & Hotel Bookings</h4>
+        <p>We handle all logistics, including flights, hotels, and transfers, to save you time and stress.</p>
+      </div>
+      <div class="service-card">
+        <h4>Travel Support</h4>
+        <p>Ongoing assistance before, during, and after your trip so you can travel confidently.</p>
+      </div>
+      <div class="service-card">
+        <h4>Group & Special Events</h4>
+        <p>Planning for weddings, anniversaries, or group trips with precise coordination.</p>
+      </div>
+      <div class="service-card">
+        <h4>Luxury & VIP Experiences</h4>
+        <p>Exclusive experiences for travelers seeking premium, customized adventures.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © <span>Travel with Alyssa</span> — Independent Travel Advisor
+  </footer>
+
+</body>
+</html>
