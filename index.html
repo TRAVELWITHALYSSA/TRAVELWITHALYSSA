@@ -3,26 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TRAVELWITHALYSSA | Personalized Travel Planning</title>
+  <title>Travel with Alyssa | Personalized Travel Planning</title>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
   <style>
     :root {
-      --primary: #1f3a5f;
-      --accent: #c8a45d;
-      --background: #f7f9fb;
+      --primary: #1f3a5f;   /* deep blue for trust */
+      --accent: #c8a45d;    /* warm gold accent */
+      --background: #f7f9fb; 
       --text-dark: #1a1a1a;
       --text-light: #555;
       --white: #ffffff;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: 'Inter', sans-serif;
@@ -43,9 +39,9 @@
 
     header h1 {
       font-family: 'Playfair Display', serif;
-      font-size: 24px;
+      font-size: 28px;
       color: var(--primary);
-      letter-spacing: 1px;
+      letter-spacing: 2px;
     }
 
     nav a {
@@ -91,13 +87,15 @@
       text-decoration: none;
       font-weight: 500;
       border-radius: 4px;
+      transition: all 0.3s ease;
     }
 
     .hero a:hover {
       opacity: 0.9;
+      transform: translateY(-2px);
     }
 
-    /* Section Base */
+    /* Sections */
     section {
       padding: 80px 60px;
       max-width: 1200px;
@@ -130,6 +128,12 @@
       padding: 30px;
       border-radius: 6px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      transition: all 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.1);
     }
 
     .service-card h4 {
@@ -154,103 +158,4 @@
     /* Footer */
     footer {
       background: var(--primary);
-      color: var(--white);
-      padding: 40px 60px;
-      text-align: center;
-      font-size: 14px;
-    }
-
-    footer span {
-      color: var(--accent);
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      header {
-        flex-direction: column;
-      }
-
-      nav {
-        margin-top: 10px;
-      }
-
-      .hero h2 {
-        font-size: 36px;
-      }
-
-      section {
-        padding: 60px 30px;
-      }
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- Header -->
-  <header>
-    <h1>TRAVELWITHALYSSA</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">Destinations</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-
-  <!-- Hero -->
-  <div class="hero">
-    <h2>Thoughtfully Planned Travel,<br>Designed Around You</h2>
-    <p>
-      Personalized travel planning with expert guidance, attention to detail,
-      and seamless coordination — so you can travel confidently and enjoy every moment.
-    </p>
-    <a href="#">Start Planning</a>
-  </div>
-
-  <!-- About -->
-  <section>
-    <h3>Experience You Can Trust</h3>
-    <p>
-      TRAVELWITHALYSSA provides tailored travel planning services built on experience,
-      organization, and a deep understanding of what makes a trip truly memorable.
-      Every itinerary is customized to fit your style, priorities, and pace.
-    </p>
-  </section>
-
-  <!-- Services -->
-  <section>
-    <h3>Travel Services</h3>
-    <div class="services">
-      <div class="service-card">
-        <h4>Custom Itineraries</h4>
-        <p>Thoughtfully designed trips tailored to your interests, schedule, and budget.</p>
-      </div>
-      <div class="service-card">
-        <h4>Destination Expertise</h4>
-        <p>Insightful recommendations for accommodations, experiences, and logistics.</p>
-      </div>
-      <div class="service-card">
-        <h4>Ongoing Support</h4>
-        <p>Reliable assistance before, during, and after your travels for peace of mind.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Trust -->
-  <div class="trust">
-    <h3>Your Journey, Handled With Care</h3>
-    <p>
-      This is not mass booking or automated planning.
-      Every trip is handled personally, with attention to detail and a commitment
-      to delivering smooth, memorable travel experiences.
-    </p>
-  </div>
-
-  <!-- Footer -->
-  <footer>
-    © <span>TRAVELWITHALYSSA</span> — Independent Travel Advisor
-  </footer>
-
-</body>
-</html>
+      color:
