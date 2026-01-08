@@ -1,16 +1,18 @@
-## Hi there 👋
+# TRAVELWITHALYSSA
 
-<!--
-**TRAVELWITHALYSSA/TRAVELWITHALYSSA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Official website for an independent travel agent providing personalized travel planning, destination guidance, and ongoing client support.
 
-Here are some ideas to get you started:
+## Live Site
+🔗 https://yourusername.github.io/TRAVELWITHALYSSA/
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About
+TRAVELWITHALYSSA is a long-term, owner-operated website designed to support clients through customized travel planning, destination inspiration, and trip coordination. The site serves as an informational and contact hub for travel services.
+
+## Built With
+- HTML5
+- CSS3
+- JavaScript
+- GitHub Pages
+
+## Status
+Actively maintained
